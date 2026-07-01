@@ -1,12 +1,9 @@
-def add_numbers(a, b):
-    return a + b
+def add_numbers(num1, num2):
+    return num1 + num2
 
-# Input from the user
-num1 = float(input("Enter first number: "))
-num2 = float(input("Enter second number: "))
+# Get input from the user
+first = int(input("Enter the first number: "))
+second = int(input("Enter the second number: "))
 
-# Function call
-result = add_numbers(num1, num2)
-
-# Output
-print("Sum =", result)
+# Display the result
+print("The sum of the two numbers is:", add_numbers(first, second))
